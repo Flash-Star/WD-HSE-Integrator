@@ -51,3 +51,22 @@ use SNproj.
 The GSL routines in SNproj.c have been removed in favor of manually doing a
 combination of Newton iteration and brute force searching to get the
 HSE density in each zone.
+
+NOTICE RE. COPYRIGHT STATUS:
+
+Because this code uses the GSL, we must use the GPL (included in the
+LICENSE file), and this applies to the following 6 source files:
+
+compute_4km_flash_profile.sh
+Teos.h
+cgs.h
+SNproj.c
+composition.h
+Teos_f.c
+
+However, the GPL does NOT apply to the following, as they are from
+Frank Timmes' Helmholtz EOS distribution:
+
+helm_eos.f
+helm_table.dat
+vector_eos.dek
