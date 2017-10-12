@@ -3,8 +3,7 @@
 HSE Integrator for WD Models using F. Timmes' Helmholtz EOS and user-supplied T, X profile
 
 
-Original version by Dean Townsley
-2009/3/30
+## Original version by Dean Townsley, 2009/3/30
 
 This code builds a WD in hydrostatic equilibrium on an evenly spaced radial
 grid.  The finite-difference form of the HSE equations are taken from Zingale
@@ -26,7 +25,7 @@ need to add the carbon and neon abundance columns manually and put the number
 of lines at the top.  Also only one comment line is allowed.  There are a few
 example files for this.  (the cc_* files)
 
-Revisions by Donald Willcox, 2016:
+## Revisions by Donald Willcox, 2016:
 
 SNproj looks for a file in the current directory called
 `ref_profile.dat` at the same uniform grid resolution as the model
