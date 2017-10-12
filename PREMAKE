@@ -1,0 +1,9 @@
+To make this code, you need to install the following:
+(package names correspond to those available to the Fedora distro)
+
+gfortran
+gcc
+gsl gsl-devel
+blas blas-devel
+atlas atlas-devel
+lapack lapack-devel
