@@ -5,6 +5,7 @@ HSE Integrator for WD Models using F. Timmes' Helmholtz EOS and user-supplied T,
 ## Authors
 
 Original Author: Dean Townsley, 2009/3/30
+
 Substantial Revisions by: Donald Willcox, 2016
 
 ## Description
